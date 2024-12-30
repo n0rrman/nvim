@@ -32,4 +32,3 @@ require("lazy").setup({
 	checker = { enabled = true },
 })
 
-require("telescope").load_extension("fzf")

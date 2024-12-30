@@ -43,7 +43,6 @@ vim.opt.bg = "dark" -- Dark background syntax highlighting.
 
 -- PLUGINS
 vim.cmd([[colorscheme gruvbox]]) -- Set Gruvbox as theme
-vim.cmd("runtime! ftplugin/html.vim!") -- Angular html
 
 -- DIAGNOSTIC
 vim.diagnostic.config({

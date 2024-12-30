@@ -58,6 +58,6 @@ return {
 		},
 		winbar = {},
 		inactive_winbar = {},
-		extensions = { "oil", "mason", "fzf" },
+		extensions = { "oil", "mason" },
 	},
 }

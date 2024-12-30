@@ -2,7 +2,6 @@
 -- CONFIG --
 --
 -- Imports
-local ng = require("ng")
 local actions = require("actions-preview")
 local builtin = require("telescope.builtin")
 
@@ -59,11 +58,6 @@ vim.keymap.set("v", "J", ":m '<-2<CR>gv=gv")
 --
 -- Oil: -
 keymap("-", "<CMD>Oil --float<CR>", "Oil: Open Oil / Open parent directory")
-
--- Angular: Leader->n...
-keymap("<leader>nt", ng.goto_template_for_component, "Ng: Go to template file")
-keymap("<leader>nc", ng.goto_component_with_template_file, "Ng: Go to component file")
-keymap("<leader>nT", ng.get_template_tcb, "Ng: Get template typecheck block")
 
 -- Git: Leader->g...
 keymap("<leader>gk", "<cmd>DiffviewOpen<cr>", "Diffview: Open diffview")
